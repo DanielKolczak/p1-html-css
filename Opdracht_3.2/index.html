@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="First_name">Voornaam (geen cijfers):</label>
+            <input type="text" name="First_name" pattern="[A-Z]*[a-z]*">
+        </div>
+
+        <div>
+            <label for="Last_Name">Achternaam (geen cijfers):</label>
+            <input type="text" name="Last_Name" pattern="[A-Z]*[a-z]*">
+        </div>
+
+        <div>
+            <label for="gender">Man</label>
+            <input type="radio" name="gender" value="Man" checked>
+            <label for="gender">Vrouw</label>
+            <input type="radio" name="gender" value="Vrouw">
+            <label for="gender">Anders:</label>
+            <input type="text" name="gender">
+        </div>
+
+        <div>
+            <label for="Straat en huisnummer">Straat & huisnummer</label>
+            <input type="text" name="Straat en huisnummer">
+        </div>
+
+        <div>
+            <label for="postcode">Postcode:</label>
+            <input type="text" name="postcode">
+        </div>
+
+        <div>
+            <label for="stad">Stad:</label>
+            <input type="text" name="stad">
+        </div>
+
+        <div>
+            <label for="land">Land:</label>
+            <input type="text" name="Land:">
+        </div>
+
+        <div>
+            <label for="bsn">BSN-nummer</label>
+            <input type="number" name="bsn" max="999999999">
+        </div>
+
+        <div>
+            <label for="vakantieland">Vakantieland:</label>
+            <input type="text" name="vakantieland" hidden>
+        </div>
+        <div>
+            <input type="checkbox" id="land1" name="land1" value="land1">
+            <label for="land1"> Spanje</label>
+            <input type="checkbox" id="land2" name="land2" value="land2">
+            <label for="land2"> Frankrijk</label>
+            <input type="checkbox" id="land3" name="land3" value="land3">
+            <label for="land3"> Italie</label>
+
+        </div>
+        <div>
+            <label for="datum">Datum van vertrek:</label>
+            <input type="date" name="datum" min="2023-09-14">
+        </div>
+        <div>
+            <label for="datumt">Datum van terugkomst:</label>
+            <input type="date" name="datumt" min="2023-09-14">
+        </div>
+        <div>
+            <label for="reisgenoten">Aantal reisgenoten:</label>
+            <input type="number" name="reisgenoten" min="1" max="4">
+        </div>
+        <div>
+            <input type="submit" value="Boek nu" name="Submit_form">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="password">Wachtwoord</label>
+            <input type="password" name="password">
+        </div>
+
+    </form>
+</body>
+
+</html>
