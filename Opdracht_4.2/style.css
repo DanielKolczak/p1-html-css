@@ -1,0 +1,51 @@
+h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: 900;
+}
+
+.p_1 {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+
+p {
+    color: #4D4D4D;
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+article {
+    border: 2px dotted teal;
+    border-radius: 12px;
+    padding: 5px;
+    border-left: 8px solid teal;
+}
+
+header {
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    background-image: url(./opd4.2gmngbckgrnd.jpg) ;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
