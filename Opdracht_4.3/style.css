@@ -16,16 +16,21 @@ html {
 
 body {
     font-family: Goldman-Regular;
+    background-image: url(./backgroundhacker.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sql1 {
     background-color: black;
     color: white;
+    background-image: none;
 }
 
 .js {
     background-color: black;
     color: white;
+    background-image: none;
 }
 
 .ftr1 {
