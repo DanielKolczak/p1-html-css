@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 30px;
+    color: white;
+    background-color: crimson;
+    padding-left: 40px;
+    height: 10vh;
+}
+
+.section2 {
+    background-color: rgb(217, 217, 36);
+    padding-left: 40px;
+    height: 30vh;
+}
+
+.section3 {
+    background-color: orange;
+    padding-left: 40px;
+    height: 30vh;
+}
+
+.section4 {
+    background-color: rgba(8, 165, 8, 0.708);
+    padding-left: 40px;
+    height: 30vh;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 30px;
+        color: white;
+        background-color: rgb(255, 143, 162);
+        text-align: center;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section2 {
+        background-color: rgb(225, 82, 106);
+        padding-left: 40px;
+        height: 30vh;
+        color: white;
+        font-size: 13px;
+    }
+
+    .section3 {
+        background-color: rgb(76, 76, 215);
+        padding-left: 40px;
+        height: 30vh;
+        color: white;
+        font-size: 13px;
+    }
+
+    .section4 {
+        background-color: rgb(59, 59, 222);
+        padding-left: 40px;
+        color: white;
+        height: 30vh;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        font-size: 30px;
+        color: white;
+        background-color: rgb(127, 57, 247);
+        height: 10vh;
+        text-align: left;
+    }
+
+    .nav {
+        text-align: right;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        text-align: right;
+        margin-top: 4vh;
+        margin-left: 75%;
+    }
+
+    .section2 {
+        background-color: lightskyblue;
+        height: 30vh;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .section3 {
+        background-color: rgb(183, 76, 215);
+        height: 30vh;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .section4 {
+        background-color: rgb(31, 31, 102);
+        color: white;
+        height: 30vh;
+        font-size: 13px;
+        text-align: center;
+        padding: 0;
+    }
+}
